@@ -15,8 +15,8 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>5400</WindowHeight>
-  <WindowWidth>26700</WindowWidth>
+  <WindowHeight>5900</WindowHeight>
+  <WindowWidth>26140</WindowWidth>
   <WindowTopX>18480</WindowTopX>
   <WindowTopY>14700</WindowTopY>
   <ProtectStructure>False</ProtectStructure>
@@ -83,7 +83,7 @@
    <Row ss:AutoFitHeight="0">
     <Cell ss:StyleID="s67"><Data ss:Type="String">apply-ALL</Data></Cell>
     <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s62"><Data ss:Type="String">product-pf-81</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">product-pf-80</Data></Cell>
     <Cell><Data ss:Type="String">hostenv-private</Data></Cell>
     <Cell ss:StyleID="s63"/>
     <Cell ss:StyleID="s63"><Data ss:Type="String">capability-mfa</Data></Cell>
@@ -117,6 +117,7 @@
    </Print>
    <PageLayoutZoom>0</PageLayoutZoom>
    <Selected/>
+   <LeftColumnVisible>1</LeftColumnVisible>
    <Panes>
     <Pane>
      <Number>3</Number>
