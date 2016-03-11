@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
- <title>TEST // Authentication policy contracts</title>
+ <title>TEST-80 // Authentication policy contracts</title>
+ <topicref processing-role="resource-only" format="xml" type="xml" href="pip80_cm_authenticationPolictContracts.xml" outputclass="classmapdata" scope="external"/>
  <topicref href="pip_c_authenticationPolicyContracts.dita"
   keys="pip_c_authenticationPolicyContracts"/>
 </map>
