@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
 <reference id="reference_npg_h5t_gv">
-  <title>LDAP data store properties // Test, 8.0</title>
+  <title>LDAP data store properties // Test, 8.1</title>
   <shortdesc>Properties of <wintitle>LDAP Configuration</wintitle>.</shortdesc>
   <refbody>
     <properties>
@@ -35,7 +35,7 @@
             2008 R2 (or higher), enter a User account; do not use a Computer account.</p></propdesc>
       </property>
       <property>
-        <proptype>Use SSL</proptype>
+        <proptype><b>Use LDAPS</b></proptype>
         <propvalue>(Optional) Connects to the LDAP data store using LDAPS. </propvalue>
         <propdesc>This selection applies equally to any secondary servers specified in Hostname(s).
           <note type="important">We recommend that all LDAP connections be secured using
