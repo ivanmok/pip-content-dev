@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>ping</Author>
+  <LastAuthor>Ivan</LastAuthor>
+  <Created>2016-02-09T22:58:26Z</Created>
+  <LastSaved>2016-02-12T22:50:50Z</LastSaved>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>5400</WindowHeight>
+  <WindowWidth>26700</WindowWidth>
+  <WindowTopX>18480</WindowTopX>
+  <WindowTopY>14700</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="Normal 3">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s66">
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="6" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="65" ss:DefaultRowHeight="15">
+   <Column ss:Width="399"/>
+   <Column ss:Width="274"/>
+   <Column ss:Width="174"/>
+   <Column ss:Width="110"/>
+   <Column ss:Width="94"/>
+   <Column ss:Width="56"/>
+   <Column ss:Width="97"/>
+   <Column ss:Width="55"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Filename</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Title</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Product</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Hosting Environment</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Operating System</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Capability</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Task Type</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Keywords</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s63"><Data ss:Type="String">MAP</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:Index="5" ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">apply-ALL</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">product-pf-81</Data></Cell>
+    <Cell><Data ss:Type="String">hostenv-private</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">capability-mfa</Data></Cell>
+    <Cell><Data ss:Type="String">task-configuration</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">default</Data></Cell>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s63"/>
+    <Cell ss:StyleID="s62"/>
+    <Cell ss:Index="7" ss:StyleID="s62"/>
+    <Cell ss:StyleID="s63"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">pip_r_ldapDataStoreProperties</Data></Cell>
+    <Cell><Data ss:Type="String">LDAP data store properties // Test, 8.0</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="String">pip_r_jdbcDataStoreProperties</Data></Cell>
+    <Cell><Data ss:Type="String">JDBC data store properties // Test, 8.x</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>2</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
