@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="concept_csk_gf5_gv">
- <title>Authentication policy contracts // Test, 8.0</title>
+ <title>Authentication policy contracts // Test, 8.1</title>
  <shortdesc>Authentication policy contract is a contract with one or more user
   attributes.</shortdesc>
  <conbody>
   <p>Authentication policy contracts, formerly known as connection mapping contracts, provide
    PingFederate administrators the following benefits:</p>
   <ul>
+   <li><b>Something shiny and new</b></li>
    <li>The capability to build an attribute contract with attribute values from multiple
     authentication sources or data store queries through an authentication policy.</li>
    <li>The flexibility to map only the policy contract to a connection. Authentication sources in
@@ -19,6 +20,8 @@
   </ul>
   <p>Authentication policy contracts are also the media to carry user attributes from IdPs to SPs
    when PingFederate is deployed as a federation hub.</p>
+  <p><b>Furthermore, authentication policy contracts are magical! // Imagine that this paragraph is
+    massive.</b></p>
   <p>You manage authentication policy contracts in the <menucascade>
     <uicontrol>IdP Configuration/SP Configuration</uicontrol>
     <uicontrol>Policies</uicontrol>
