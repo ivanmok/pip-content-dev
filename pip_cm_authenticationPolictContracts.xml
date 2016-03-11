@@ -15,7 +15,7 @@
   <AllowPNG/>
  </OfficeDocumentSettings>
  <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
-  <WindowHeight>7800</WindowHeight>
+  <WindowHeight>3400</WindowHeight>
   <WindowWidth>25280</WindowWidth>
   <WindowTopX>6160</WindowTopX>
   <WindowTopY>7860</WindowTopY>
@@ -86,7 +86,7 @@
     <Cell ss:StyleID="s62"><Data ss:Type="String">product-pf-80</Data></Cell>
     <Cell><Data ss:Type="String">hostenv-private</Data></Cell>
     <Cell ss:StyleID="s63"/>
-    <Cell ss:StyleID="s63"><Data ss:Type="String">capability-sso;capability-credential-validation</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">capability-sso;capability-restrictions</Data></Cell>
     <Cell><Data ss:Type="String">task-configuration</Data></Cell>
     <Cell ss:StyleID="s63"/>
    </Row>
@@ -116,7 +116,7 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>2</ActiveRow>
+     <ActiveRow>3</ActiveRow>
      <ActiveCol>5</ActiveCol>
     </Pane>
    </Panes>
