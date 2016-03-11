@@ -2,6 +2,6 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title>TEST // Data store properties</title>
- <topicref href="pip_r_ldapDataStoreProperties.dita" keys="pf_r_ldapDataStoreProperties"/>
- <topicref href="pip_r_jdbcDataStoreProperties.dita" keys="pf_r_jdbcDataStoreProperties"/>
+ <topicref href="pip_r_ldapDataStoreProperties.dita" keys="pip_r_ldapDataStoreProperties"/>
+ <topicref href="pip_r_jdbcDataStoreProperties.dita" keys="pip_r_jdbcDataStoreProperties"/>
 </map>
