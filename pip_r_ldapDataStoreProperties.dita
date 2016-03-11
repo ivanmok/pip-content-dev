@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_npg_h5t_gv">
+  <title>LDAP data store properties // Test, 8.0</title>
+  <shortdesc>Properties of <wintitle>LDAP Configuration</wintitle>.</shortdesc>
+  <refbody>
+    <properties>
+      <prophead>
+        <proptypehd>Field</proptypehd>
+        <propvaluehd>Value</propvaluehd>
+        <propdeschd>Additional information</propdeschd>
+      </prophead>
+      <property>
+        <proptype>Hostname(s)</proptype>
+        <propvalue>The DNS name or IP address of the data store, which may include a port number;
+          example:181.20.42.130:389. For failover, you can enter one or more backup LDAP servers,
+          each separated by a space.</propvalue>
+        <propdesc>If more than one Hostname is entered, each server must be accessible using the
+          same User DN and Password (or via Bind Anonymously).</propdesc>
+      </property>
+      <property>
+        <proptype>LDAP Type</proptype>
+        <propvalue>The LDAP data store type.</propvalue>
+        <propdesc>If you are using this data store for Outbound Provisioning and your LDAP store is
+          Active Directory (AD), Oracle Directory Server, or UnboundID Data Store, select the
+          applicable Type, which permits PingFederate to configure many provisioning settings
+          automatically.</propdesc>
+      </property>
+      <property>
+        <proptype>User DN</proptype>
+        <propvalue>The username credential required to access the LDAP directory server (when the
+            <uicontrol>Bind Anonymously</uicontrol> check box is not selected).</propvalue>
+        <propdesc>The user must have permission to search the directory for user-account
+          information. <p>When connecting to an AD LDAP server running on Microsoft Windows Server
+            2008 R2 (or higher), enter a User account; do not use a Computer account.</p></propdesc>
+      </property>
+      <property>
+        <proptype>Use SSL</proptype>
+        <propvalue>(Optional) Connects to the LDAP data store using LDAPS. </propvalue>
+        <propdesc>This selection applies equally to any secondary servers specified in Hostname(s).
+          <note type="important">We recommend that all LDAP connections be secured using
+            LDAPS.</note></propdesc>
+      </property>
+    </properties>
+  </refbody>
+</reference>
