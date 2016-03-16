@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Powder room renovation step-by-step guide</title>
+ <mapref href="pip_sm_powderRoomRenovation.ditamap"/>
+ <mapref href="pip_sm_replaceToilet.ditamap"/>
+ <mapref href="pip_sm_replaceVanitySet.ditamap"/>
+ <mapref href="pip_sm_replaceMirror.ditamap"/>
+</map>

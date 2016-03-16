@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_h3m_zpf_3v">
+    <title>Replace a toilet</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>Let's remove your old toilet and replace with a new one.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Flush the toilet clean.</cmd>
+            </step>
+            <step>
+                <cmd>Shut off water supply lines.</cmd>
+            </step>
+            <step>
+                <cmd>Remove the old toilet.</cmd>
+            </step>
+            <step>
+                <cmd>Install the new toilet.</cmd>
+                <info>
+                    <p>MyShop carries a wide varity of toilets.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Turn on water supply lines and test.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>
