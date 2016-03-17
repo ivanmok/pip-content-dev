@@ -6,4 +6,21 @@
  <mapref href="pip_sm_replaceToilet.ditamap"/>
  <mapref href="pip_sm_replaceVanitySet.ditamap"/>
  <mapref href="pip_sm_replaceMirror.ditamap"/>
+ <reltable title="A relationship table">
+  <relheader>
+   <relcolspec/>
+   <relcolspec/>
+  </relheader>
+  <relrow>
+   <relcell>
+    <topicref keyref="pip_t_replaceToilet"/>
+    <topicref keyref="pip_t_replaceVanitySet"/>
+    <topicref keyref="pip_t_installNewFaucet"/>
+    <topicref keyref="pip_t_replaceMirror"/>
+   </relcell>
+   <relcell>
+    <topicref keyref="pip_t_shopAtMyShop"/>
+   </relcell>
+  </relrow>
+ </reltable>
 </map>

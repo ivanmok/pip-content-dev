@@ -21,7 +21,11 @@
     </taskbody>
     <related-links>
         <link keyref="pip_c_powderRoomRenovation"/>
-        <link keyref="pip_t_shopAtMyShop"/>
-        <link keyref="www.example.com"/>
+        <link keyref="www.example.com">
+            <linktext>www.Example.com</linktext>
+        </link>
+        <link href="http://www2.example.com" format="html" scope="external">
+            <linktext>www2.Example.com</linktext>
+        </link>
     </related-links>
 </task>
