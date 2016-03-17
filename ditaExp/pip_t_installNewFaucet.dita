@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_idy_hsf_3v">
+    <title>Install a new faucet</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>Let's install a new faucet.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Shut off water supply lines.</cmd>
+            </step>
+            <step>
+                <cmd>Align the deck plate with the water supply line.</cmd>
+            </step>
+            <step>
+                <cmd>Install the new faucet.</cmd>
+                <info>
+                    <p>MyShop carries hundreds of faucets.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Turn on water supply lines and test.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

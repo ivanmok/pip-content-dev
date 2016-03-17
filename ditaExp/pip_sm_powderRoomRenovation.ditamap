@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Powder room renovation</title>
+ <topicref href="pip_c_powderRoomRenovation.dita" keys="pip_c_powderRoomRenovation"/>
+ <topicref href="pip_t_shopAtMyShop.dita" keys="pip_t_shopAtMyShop"/>
+</map>

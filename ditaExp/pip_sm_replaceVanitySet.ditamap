@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Replace a vanity set</title>
+ <topicref href="pip_c_vanitySetReplacement.dita" keys="pip_c_vanitySetReplacement">
+  <topicref href="pip_t_replaceVanitySet.dita" keys="pip_t_replaceVanitySet"/>
+  <topicref href="pip_t_installNewFaucet.dita" keys="pip_t_installNewFaucet"/>
+ </topicref>
+</map>

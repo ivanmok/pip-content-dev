@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Replace a mirror</title>
+ <topicref href="pip_t_replaceMirror.dita" keys="pip_t_replaceMirror"/>
+ <keydef keys="pip_c_powderRoomRenovation" href="pip_c_powderRoomRenovation.dita"/>
+ <keydef keys="pip_t_shopAtMyShop" href="pip_t_shopAtMyShop.dita"/>
+ <keydef keys="www.example.com" href="http://www.example.com" format="html" scope="external"/>
+</map>

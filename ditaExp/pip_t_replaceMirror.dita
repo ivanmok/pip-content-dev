@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_erf_qqf_3v">
+    <title>Replace a mirror</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p>Let's remove your old mirror and replace with a new one.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Remove the old mirror.</cmd>
+            </step>
+            <step>
+                <cmd>Install a new mirror.</cmd>
+                <info>
+                    <p>MyShop carries a wonderful selection of mirrors.</p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+    <related-links>
+        <link keyref="pip_c_powderRoomRenovation"/>
+        <link keyref="www.example.com">
+            <linktext>www.Example.com</linktext>
+        </link>
+        <link href="http://www2.example.com" format="html" scope="external">
+            <linktext>www2.Example.com</linktext>
+        </link>
+    </related-links>
+</task>
