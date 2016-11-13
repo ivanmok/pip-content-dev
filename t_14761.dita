@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_kxy_hpy_3x">
+    <title>14761</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <draft-comment author="Ivan Mok">
+                <p>Here is an unordered list outside of the steps element
+                        (<codeph>context/p/ul/li</codeph>):<ul>
+                        <li>Item Y.</li>
+                        <li>Item 4.</li>
+                    </ul></p>
+            </draft-comment>
+            <draft-comment author="Ivan Mok">
+                <p>Here is an ordered list outside of the steps element
+                        (<codeph>context/p/ol/li</codeph>):<ol>
+                        <li>Firstly, hello.</li>
+                        <li>Finally, bye.</li>
+                    </ol></p>
+            </draft-comment>
+        </context>
+        <steps>
+            <step>
+                <cmd>Do this.</cmd>
+                <info>
+                    <p>Here's an unordered list (<codeph>ul/li</codeph>):<ul>
+                            <li>Item X.</li>
+                            <li>Item 5.</li>
+                        </ul></p>
+                    <p>Here's an ordered list (<codeph>ol/li</codeph>):</p>
+                    <ol>
+                        <li>Firstly, this.</li>
+                        <li>Secondly, that.</li>
+                    </ol>
+                </info>
+            </step>
+            <step>
+                <cmd>Do that.</cmd>
+                <info>
+                    <p>This step has 2 sub steps for the purpose of demonstrating alignment.</p>
+                </info>
+                <substeps>
+                    <substep>
+                        <cmd>Say hello.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Say goodbye.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Fix me.</cmd>
+            </step>
+        </steps>
+        <result>
+            <p>This map is transformed to Ping's sandbox at <xref
+                    href="https://ping.suiteshare.net/bundle/m_14761/page/t_14761.html"
+                    format="html" scope="external"
+                    >https://ping.suiteshare.net/bundle/m_14761/page/t_14761.html</xref>:</p>
+            <fig>
+                <image href="i_14761.png" scalefit="yes" alt="Sample screenshot"/>
+            </fig>
+        </result>
+    </taskbody>
+</task>

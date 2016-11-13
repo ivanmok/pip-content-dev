@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task_xbn_wwt_3x">
+    <title>Sample steps and sub steps</title>
+    <shortdesc/>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Do this.</cmd>
+                <info>
+                    <p>This step is not optional.</p>
+                </info>
+            </step>
+            <step importance="optional">
+                <cmd>Do that.</cmd>
+                <info>
+                    <p>This step is optional but the HTML output does not prefix the step with
+                            "<b>Optional:</b>" (without quotes). For a sample of the expected HTML
+                        output, see <xref
+                            href="https://documentation.pingidentity.com/pingfederate/pf82/#gettingStartedGuide/concept/enableProvisioningToPingOne.html"
+                            format="html" scope="external">step 2 in <b>Enable provisioning to
+                                PingOne</b></xref>.</p>
+                </info>
+            </step>
+            <step>
+                <cmd>Do this better.</cmd>
+                <info>
+                    <p>This step is not optional. It has 2 sub steps.</p>
+                </info>
+                <substeps>
+                    <substep>
+                        <cmd>Do this now.</cmd>
+                        <info>
+                            <p>This sub step is not optional.</p>
+                        </info>
+                    </substep>
+                    <substep importance="optional">
+                        <cmd>Do that now.</cmd>
+                        <info>
+                            <p>This step is optional but the HTML output does not prefix the step
+                                with "<b>Optional:</b>" (without quotes). For a sample of the
+                                expected HTML output, see <xref
+                                    href="https://documentation.pingidentity.com/pingfederate/pf82/#task_configuringTheIdpOpenTokenAdapter.html"
+                                    format="html" scope="external">step 3b in <b>Configure the
+                                        OpenToken IdP Adapter</b></xref>.</p>
+                        </info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Say goodbye.</cmd>
+                <info>
+                    <p>This step is not optional.</p>
+                </info>
+            </step>
+        </steps>
+        <result>
+            <p>This map is transformed to Ping's sandbox at <xref
+                    href="https://ping.suiteshare.net/bundle/m_14762/page/t_14762.html"
+                    format="html" scope="external"
+                    >https://ping.suiteshare.net/bundle/m_14762/page/t_14762.html</xref>:</p>
+            <fig>
+                <image href="i_14762.png" scalefit="yes" alt="Sample output"/>
+            </fig>
+        </result>
+    </taskbody>
+</task>

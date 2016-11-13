@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Test one</title>
+ <topicref href="pf_c_contentOne.dita"/>
+ <keydef href="pf_c_contentTwo.dita" format="dita" scope="peer" keys="ding" processing-role="resource-only"/>
+</map>
