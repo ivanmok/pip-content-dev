@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<val>
+    <prop action="exclude" att="product" val="secret"/>
+    <!--
+    <prop action="exclude" att="audience" val="novice" />
+    <prop action="flag" att="audience" val="general" backcolor="grey" color="red" style="bold"/>
+    -->
+</val>

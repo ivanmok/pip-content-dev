@@ -8,13 +8,14 @@
             <p>Let's remove your old mirror and replace with a new one.</p>
         </context>
         <steps>
-            <step>
+            <step audience="novice">
                 <cmd>Remove the old mirror.</cmd>
             </step>
             <step>
                 <cmd>Install a new mirror.</cmd>
                 <info>
                     <p>MyShop carries a wonderful selection of mirrors.</p>
+                    <p>You'll love it<ph product="secret"> for sure</ph>!</p>
                 </info>
             </step>
         </steps>
@@ -22,6 +23,8 @@
     <related-links>
         <link keyref="pip_c_powderRoomRenovation"/>
         <link keyref="pip_t_shopAtMyShop"/>
-        <link keyref="www.example.com"/>
+        <link keyref="www.example.com">
+            <linktext>Example.com</linktext>
+        </link>
     </related-links>
 </task>
