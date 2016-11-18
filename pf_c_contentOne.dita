@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_gmm_bd2_nx">
+ <title>Content one</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Good morning.</p>
+  <codeblock>Map:
+pf_sm_testOne.ditamap
++ pf_c_contentOne.dita</codeblock>
+  <p><i>Content one</i> is going to xref to <i>Content two</i> with @scope=peer: <xref scope="peer"
+    keyref="ding">Content two (text here)</xref></p>
+ </conbody>
+</concept>

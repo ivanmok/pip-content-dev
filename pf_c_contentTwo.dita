@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_i4s_fd2_nx">
+ <title>Content two</title>
+ <shortdesc></shortdesc>
+ <conbody>
+  <p>Good afternoon.</p>
+  <p><b>Before</b></p>
+  <codeblock>Map:
+pf_sm_testTwo.ditamap
++ pf_c_contentTwo.dita</codeblock>
+  <p><b>After</b></p>
+  <codeblock>Map:
+pf_sm_test2.ditamap
++ pf_c_contentTwo.dita</codeblock>
+ </conbody>
+</concept>
